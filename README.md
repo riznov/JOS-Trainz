@@ -73,7 +73,7 @@ Menyusul
 5. Edit bell.wav untuk mengganti suara
 6. Jika ingin menambahkan efek terang/menyala pada lampu, masukkan nama texture yang akan dinyalakan ke dalam extension. contoh texture dengan nama `lampu.texture.txt` dan `penunjuk.texture.txt` :
 
-```javascript
+```trainzscript
 extensions
 {
   texture_bercahaya-501228-1            "lampu"
