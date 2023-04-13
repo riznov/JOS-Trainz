@@ -62,7 +62,7 @@ With Sound ?      | Yes / No         | Yes = Palang berbunyi ketika aktif, No = 
 Penunjuk Arah Flip  | Yes / No       | Yes = Penunjuk arah pada palang akan dibalik, No = Default
 
 ### Video Tutorial
-Menyusul
+[Youtube Tutorial #1](https://youtu.be/Br4-qbi-Yow)
 
 
 ## Membuat Palang Anda Sendiri
