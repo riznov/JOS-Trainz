@@ -1,0 +1,48 @@
+﻿
+username                                "JOS v.2.0 Track Scanner -JIRC"
+kuid                                    <kuid:501228:1104231>
+category-class                          "TF"
+script                                  "pjl_trig"
+class                                   "pjl_trig"
+surveyor-only                           1
+description                             "(JOS Component) Trigger to detect train on track"
+trainz-build                            2.9
+kind                                    "mospeedboard"
+light                                   1
+trackside                               0
+author                                  "Rizky_Adiputra"
+contact-email                           "cecehduakosongtiga@gmail.com"
+contact-website                         "www.jirctrainz.com"
+license                                 "pastebin/,, untuk selengkapnya"
+category-keyword                        "ATLS;JOS;PJL;Perlintasan"
+
+mesh-table
+{
+  default
+  {
+    mesh                                "trig.im"
+    anim                                "trig.kin"
+    animation-loop-speed                1
+    auto-create                         1
+  }
+  
+  arrow
+  {
+    mesh                                "arrow.im"
+    auto-create                         1
+  }
+}
+
+thumbnails
+{
+  0
+  {
+    image                               "tmb.jpg"
+    width                               240
+    height                              180
+  }
+}
+
+kuid-table
+{
+}

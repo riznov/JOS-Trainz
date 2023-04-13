@@ -1,0 +1,2 @@
+Primary=palang kyosan_Material _481_albedo.jpg
+Tile=st

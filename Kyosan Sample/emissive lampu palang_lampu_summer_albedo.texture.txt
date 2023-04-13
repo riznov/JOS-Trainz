@@ -1,0 +1,2 @@
+Primary=emissive lampu palang_Lampu_Summer_albedo.tga
+Tile=st

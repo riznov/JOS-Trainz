@@ -1,0 +1,2 @@
+Primary=emissive lampu palang_Penunjuk_Arah_albedo.tga
+Tile=st

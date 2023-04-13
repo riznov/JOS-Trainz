@@ -1,0 +1,65 @@
+﻿
+kuid                                    <kuid:501228:1104233>
+username                                "JOS V.2.0 Traffic Stopper 2 m"
+height-range                            -0.4,100
+script                                  "pjl_stopper"
+class                                   "pjl_stopper"
+surveyor-only                           1
+trainz-build                            2.9
+kind                                    "mocrossing"
+author                                  "JIRC Trainz"
+category-region                         "ID"
+category-era                            "1950s;1960s;1970s;1980s;1990s;2000s;2010s"
+category-class                          "TF"
+
+attached-track
+{
+  road
+  {
+    track                               <kuid:122285:1122>
+    
+    vertices
+    {
+      0                                 "a.road0a"
+      1                                 "a.road0b"
+    }
+  }
+  
+  track
+  {
+    track                               <kuid2:122285:1003:1>
+    
+    vertices
+    {
+      0                                 "a.track0a"
+      1                                 "a.track0b"
+    }
+  }
+}
+
+obsolete-table
+{
+}
+
+mesh-table
+{
+  default
+  {
+    mesh                                "tstopper.im"
+    auto-create                         1
+  }
+}
+
+thumbnails
+{
+  0
+  {
+    image                               "thumb.jpg"
+    width                               240
+    height                              180
+  }
+}
+
+kuid-table
+{
+}

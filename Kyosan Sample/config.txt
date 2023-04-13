@@ -1,0 +1,95 @@
+﻿
+kuid                                    <kuid:501228:1204231>
+username                                "JOS V.2.0 Palang Kyosan (2t) -BBR"
+kind                                    "scenery"
+script                                  "pjl_palang"
+class                                   "pjl_palang"
+category-keyword                        "Crossing"
+trainz-build                            2.9
+category-region                         "ID"
+category-era                            "1990s;2000s;2010s"
+author                                  "bastiyanbr"
+contact-email                           "barabastiyan@gmail.com"
+category-class                          "ZX"
+
+extensions
+{
+  texture_bercahaya-501228-1            "emissive lampu palang_lampu_summer_albedo"
+  texture_bercahaya-501228-2            "emissive lampu palang_penunjuk_arah_albedo"
+}
+
+mesh-table
+{
+  default
+  {
+    mesh                                "palang_kyosan_2t.im"
+    auto-create                         1
+    anim                                "palang_kyosan_2t.kin"
+  }
+  
+  ms_1
+  {
+    mesh                                "ms_1.im"
+    auto-create                         0
+  }
+  
+  ms_2
+  {
+    mesh                                "ms_2.im"
+    auto-create                         0
+  }
+  
+  a_1
+  {
+    mesh                                "a_1.im"
+    auto-create                         0
+  }
+  
+  a_2
+  {
+    mesh                                "a_2.im"
+    auto-create                         0
+  }
+  
+  b_1
+  {
+    mesh                                "b_1.im"
+    auto-create                         0
+  }
+  
+  b_2
+  {
+    mesh                                "b_2.im"
+    auto-create                         0
+  }
+}
+
+thumbnails
+{
+  0
+  {
+    image                               "ss.jpg"
+    width                               200
+    height                              200
+  }
+}
+
+soundscript
+{
+  bells
+  {
+    repeat-delay                        0,0
+    distance                            10,100
+    trigger                             "play"
+    volume                              1
+    
+    sound
+    {
+      0                                 "bell.wav"
+    }
+  }
+}
+
+kuid-table
+{
+}
